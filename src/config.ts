@@ -27,7 +27,7 @@ export const SITE = {
     // Your site's detail?
     name: 'Memba',
     title: 'Memba',
-    description: 'Crisp, minimal, personal blog theme for Astro',
+    description: 'Stuff I want to remember',
     url: '',
     githubUrl: 'https://github.com/wirlydev/memba',
     listDrafts: true
