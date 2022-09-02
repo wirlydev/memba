@@ -9,7 +9,7 @@
 <header class="header">
     <div class="header__logo">
         <a href="/" class="avatar">
-            <img class="header__logo-img" src="/assets/logo.svg" alt="Astro logo" />
+            <img class="header__logo-img" src="/assets/logo.svg" alt="Memba logo" />
         </a>
     </div>
     <div class="header__meta flex-1">
@@ -32,18 +32,6 @@
                             </SvgIcon>
                         </a>
                     </li>
-                    <li>
-                        <a href="/rss.xml" title="RSS">
-                            <SvgIcon>
-                                <path d="M4 11a9 9 0 0 1 9 9"></path>
-                                <path d="M4 4a16 16 0 0 1 16 16"></path>
-                                <circle cx="5" cy="19" r="1"></circle>
-                            </SvgIcon>
-                        </a>
-                    </li>
-                    <li>
-                        <ModeSwitcherBtn client:visible />
-                    </li>
                 </ul>
             </nav>
         </div>
@@ -55,7 +43,7 @@
         @apply flex gap-4 border-b py-3 /* border-gray-200 dark:border-gray-700 - check styles/global.css */
     }
     .header__logo-img {
-        @apply w-16 h-16 rounded-full overflow-hidden
+        @apply w-32 h-24 rounded-full overflow-hidden
     }
     .header__title {
         @apply text-4xl font-extrabold md:text-5xl text-primarySecondary dark:text-primarySecondaryDark

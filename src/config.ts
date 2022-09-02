@@ -13,10 +13,10 @@ export const NAV_ITEMS: NavItems = {
         path: '/tags',
         title: 'tags'
     },
-    media: {
-        path: '/media',
-        title: 'media'
-    },
+    // media: {
+    //     path: '/media',
+    //     title: 'media'
+    // },
     about: {
         path: '/about',
         title: 'about'
@@ -25,13 +25,12 @@ export const NAV_ITEMS: NavItems = {
 
 export const SITE = {
     // Your site's detail?
-    name: 'Ink',
-    title: 'Astro - Ink',
+    name: 'Memba',
+    title: 'Memba',
     description: 'Crisp, minimal, personal blog theme for Astro',
-    url: 'https://astro-ink.vercel.app',
-    githubUrl: 'https://github.com/one-aalam/astro-ink',
+    url: '',
+    githubUrl: 'https://github.com/wirlydev/memba',
     listDrafts: true
-    // description ?
 }
 
 export const PAGE_SIZE = 8
