@@ -5,10 +5,6 @@ export const NAV_ITEMS: NavItems = {
         path: '/',
         title: 'home'
     },
-    blog: {
-        path: '/blog',
-        title: 'blog'
-    },
     tags: {
         path: '/tags',
         title: 'tags'
